@@ -29,7 +29,7 @@ EXT_FLAGS += -DIMC_EXT
 # PART I: Mandatory Features (do not edit)
 #
 # ICI
-PROGRAMS := ionadmin ionwarn rfxclock ionrestart 
+PROGRAMS := ionadmin ionwarn rfxclock ionrestart ionsecadmin
 # BPv7
 PROGRAMS += bpadmin bpclm bpclock bptransit ipnadmin ipnadminep ipnfw
 # Utility Programs
@@ -54,6 +54,7 @@ PROGRAMS += bprecvfile bpsendfile
 PROGRAMS += bpchat 
 PROGRAMS += bpcounter bpdriver
 PROGRAMS += bplist
+PROGRAMS += cgrfetch
 
 #
 # PART III: PLATFORM & BP Extension
