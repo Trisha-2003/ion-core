@@ -47,7 +47,7 @@ PROGRAMS += lgagent lgsend
 # CLA: must include at least one of STCP, UDP, or LTP 
 PROGRAMS += stcpcli stcpclo 
 PROGRAMS += udpcli udpclo 
-PROGRAMS += ltpcli ltpclo udplsi udplso ltpclock ltpdeliv ltpmeter ltpadmin
+PROGRAMS += ltpcli ltpclo udplsi udplso ltpclock ltpdeliv ltpmeter ltpadmin ltpdriver
 
 # Utility Programs
 PROGRAMS += bprecvfile bpsendfile 
